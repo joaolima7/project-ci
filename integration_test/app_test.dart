@@ -102,7 +102,7 @@ void main() {
     await tester.pumpAndSettle();
 
     // Scenario 7: Draw a name and check the result
-    await tester.tap(find.text('Sortear!'));
+    await tester.tap(find.text('Sortea!'));
     await tester.pumpAndSettle();
     expect(find.text('Alice'), findsOneWidget);
   });
